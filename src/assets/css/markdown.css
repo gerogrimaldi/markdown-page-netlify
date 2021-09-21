@@ -1,0 +1,40 @@
+.markdown-preview{
+    color: black;
+    text-align: initial;
+  }
+  .input-container{ 
+    background-color: #c0d8d8;
+    width: 400px;
+    height: 50vh; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    overflow: scroll;
+    padding: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+  }
+  .markdown-container{
+    height:500px;
+    width:900px;
+    max-width:100%;
+    max-height:100%;  
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+    overflow: scroll;
+    overflow-wrap: break-word;
+    padding: 0 1rem;
+    text-align: left; 
+    font-size: medium;
+    border-radius: 10px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .input-container ::selection  {
+    background-color: #c0d8d8;
+  }
